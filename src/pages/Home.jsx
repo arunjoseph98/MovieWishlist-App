@@ -29,12 +29,14 @@ const Home = () => {
     return (
         <>
             <Container className="d-flex flex-column justify-content-center  mt-3 w-lg-75  w-50 ">
+                <h3 className='text-center mt-1'>Create Your Perfect Movie Wishlist</h3>
+                <h6 className='text-center mt-1' style={{ color: '#F2C029' }}>Search, add to your wishlist, and track your movies with ease.</h6>
                 <SearchBar setResHome={setResHome}/>
             </Container>
             <Container className='mt-5'>
                 <Row>
                     <Col>
-                        <h2>My Wishlist</h2>
+                        <h4>My Wishlist</h4>
                     </Col>
 
                 </Row>

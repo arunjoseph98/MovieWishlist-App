@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <><Navbar className="bg-transparent">
     <Container>
-      <Navbar.Brand className='fw-bolder'  style={{ color: '#F2C029' }}>Watch<GiWhiteTower size={25}/>Tower</Navbar.Brand>
+      <Navbar.Brand className='fw-bolder'  style={{ color: '#F2C029' }}>Watch<GiWhiteTower size={30}/>Tower</Navbar.Brand>
       <Link to={'/'} style={{textDecoration:"none"}}>Home</Link>
     </Container>
   </Navbar></>
